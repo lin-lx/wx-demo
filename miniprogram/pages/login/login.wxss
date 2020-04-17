@@ -1,1 +1,3 @@
-/* miniprogram/pages/login/login.wxss */
+button{
+  margin-top: 35rpx;
+}

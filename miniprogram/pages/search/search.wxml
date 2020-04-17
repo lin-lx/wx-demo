@@ -1,2 +1,9 @@
-<!--miniprogram/pages/search/search.wxml-->
-<text>miniprogram/pages/search/search.wxml</text>
+<view class="search_row">
+  <input value="{{inputValue}}" placeholder="请输入您要搜索的商品" bindinput="handleInput" style="height:60rpx"></input>
+  <view class='tt' bindtap="handleCancel" hidden="{{!isFouce}}" style="height:60rpx">取消</view>
+</view>
+<view class="search_content">
+  <navigator url="/pages/goods_detail/goods_detail?goods_id={{item.goods_id}}" class="search_item" wx:for="{{goods}}" wx:key="goods_id">
+    {{item.goods_name}}
+  </navigator>
+</view>

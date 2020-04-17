@@ -1,1 +1,4 @@
-/* miniprogram/pages/auth/auth.wxss */
+button{
+  width: 70%;
+  margin-top: 35rpx;
+}

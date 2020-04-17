@@ -1,2 +1,3 @@
-<!--miniprogram/pages/order/order.wxml-->
-<text>miniprogram/pages/order/order.wxml</text>
+<Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+  内容
+</Tabs>

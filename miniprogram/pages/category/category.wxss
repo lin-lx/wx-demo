@@ -1,7 +1,6 @@
-page{
+page {
   height: 100%;
 }
-/* 左侧菜单数据 */
 .cates {
   height: 100%;
 }
@@ -9,43 +8,44 @@ page{
   height: calc(100vh - 90rpx);
   display: flex;
 }
-.cates .left_menu {
+.cates .cates_container .left_menu {
   flex: 2;
 }
-.menu_item{
+.cates .cates_container .left_menu .menu_item {
   height: 80rpx;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 30rpx;
 }
-.menu_item.active{
-  color:var(--themeColor);
-  border-left:5rpx solid currentColor;
+.cates .cates_container .left_menu .active {
+  color: var(--themeColor);
+  border-left: 5rpx solid currentColor;
 }
-
-/* 右侧商品数据 */
-.right_content{
+.cates .cates_container .right_content {
   flex: 5;
 }
-.goods_title{
+.cates .cates_container .right_content .goods_group .goods_title {
   height: 80rpx;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.goods_list{
+.cates .cates_container .right_content .goods_group .goods_title .delimiter {
+  color: #ccc;
+  padding: 0 10rpx;
+}
+.cates .cates_container .right_content .goods_group .goods_list {
   display: flex;
   flex-wrap: wrap;
 }
-.goods_list navigator{
+.cates .cates_container .right_content .goods_group .goods_list navigator {
   width: 33.33%;
   text-align: center;
 }
-.goods_list navigator image{
+.cates .cates_container .right_content .goods_group .goods_list navigator image {
   width: 50%;
 }
-.delimiter{
-  color: #ccc;
-  padding: 0 10rpx;
+.cates .cates_container .right_content .goods_group .goods_list navigator .goods_name {
+  height: 80rpx;
 }

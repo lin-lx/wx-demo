@@ -77,7 +77,7 @@ Page({
   },
 
   //左侧菜单的点击事件
-  handItemTap(e){
+  handleItemTap(e){
     // 1.获取被点击的标题身上的索引
     const {index}=e.currentTarget.dataset;
      // 2.给data中的currentIndex赋值

@@ -1,6 +1,4 @@
-.first_tab{
 
-}
 .goods_item{
   display: flex;
   border-bottom: 1rpx solid #ccc;

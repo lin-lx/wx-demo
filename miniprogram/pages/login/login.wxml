@@ -1,2 +1,1 @@
-<!--miniprogram/pages/login/login.wxml-->
-<text>miniprogram/pages/login/login.wxml</text>
+<button type="primary" plain open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo"> 登录</button>
