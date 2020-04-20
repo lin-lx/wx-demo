@@ -42,7 +42,7 @@ swiper{
   height: 27.727112068965514vw;
   border-left: 10rpx solid #fff;
 }
-.floor_list navigator:nth-last-child(2) {
+.floor_list navigator:nth-last-child(4) {
   border-bottom: 10rpx solid #fff;
 }
 .floor_list navigator:nth-last-child(3) {

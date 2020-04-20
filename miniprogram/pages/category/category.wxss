@@ -42,6 +42,10 @@ page {
 .cates .cates_container .right_content .goods_group .goods_list navigator {
   width: 33.33%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .cates .cates_container .right_content .goods_group .goods_list navigator image {
   width: 50%;

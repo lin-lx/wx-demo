@@ -29,7 +29,7 @@ page{
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient:vertical;
-  -webkey-line-clamp:2; 
+  -webkit-line-clamp: 2;
 }
 .goods_collect{
   flex: 1;

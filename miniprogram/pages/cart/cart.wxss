@@ -59,7 +59,7 @@ page{
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient:vertical;
-  -webkey-line-clamp:2; 
+  -webkit-line-clamp: 2;
   color: #666;
 }
 .goods_price_wrap{
