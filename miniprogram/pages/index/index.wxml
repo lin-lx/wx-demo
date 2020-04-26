@@ -6,7 +6,7 @@
 <view class="index_swiper">
   <swiper autoplay="true" indicator-dots="true" circular="true">
     <swiper-item wx:for="{{swiperList}}" wx:key="goods_id">
-      <navigator url="{{item.navigator_url}}">
+      <navigator url="/pages/goods_detail/goods_detail?goods_id={{item.goods_id}}">
         <image mode="widthFix" src="{{item.image_src}}"></image>
       </navigator>
     </swiper-item>
@@ -26,10 +26,10 @@
     <!-- 标题 -->
     <view class="floor_title">
       <image mode="widthFix" src="{{item1.floor_title.image_src}}"></image>
-    </view>
+    </view> 
     <!-- 内容 -->
     <view class="floor_list">
-      <navigator wx:for="{{ item1.product_list}}" wx:for-item="item2" wx:for-index="index2" wx:key="name">
+      <navigator url="{{queryUrl}}" wx:for="{{ item1.product_list}}" wx:for-item="item2" wx:for-index="index2" wx:key="name">
         <image mode="{{index2==0? 'widthFix':'scaleToFill'}}" src="{{item2.image_src}}"></image>
       </navigator>
     </view>

@@ -108,7 +108,7 @@ imgs:[],
     chooseImgs.forEach((v,i)=>{
       wx.uploadFile({
         //图片上传到哪里
-        url: 'https://images.ac.cn/Home/Index/UploadAction',
+        url: 'https://images.ac.cn/',
         //被上传文件的路径
         filePath: v,
         //上传文件的名称

@@ -34,9 +34,9 @@ Page({
   },
 
   onLoad: function (options) {
-    this.QueryParams.cid=options.cid;
+    this.QueryParams.cid=options.cid||"";
+    this.QueryParams.query=options.query||"";
     this.getGoodsList();
-
     wx.showLoading({
       title: '加载中',
     })
