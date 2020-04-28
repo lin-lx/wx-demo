@@ -29,7 +29,7 @@
     </view> 
     <!-- 内容 -->
     <view class="floor_list">
-      <navigator url="{{queryUrl}}" wx:for="{{ item1.product_list}}" wx:for-item="item2" wx:for-index="index2" wx:key="name">
+      <navigator url="{{item2.navigator_url}}" wx:for="{{ item1.product_list}}" wx:for-item="item2" wx:for-index="index2" wx:key="name">
         <image mode="{{index2==0? 'widthFix':'scaleToFill'}}" src="{{item2.image_src}}"></image>
       </navigator>
     </view>
